@@ -1,0 +1,287 @@
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 20px;
+    color: rgb(27, 26, 25);
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background: url('../images/mykitchenlogo.png') no-repeat center center;
+    margin-bottom: -10px;
+    margin-top: 60px;
+    height: 210px;
+    color: white;
+}
+
+#container {
+    width: 740px;
+    background: #fff;
+    margin: auto;
+}
+
+.card-header {
+    background-color: rgb(231, 130, 0);
+    border: 1px solid rgb(243, 230, 202);
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+}
+
+.card-body {
+    border: 1px solid rgb(243, 230, 202);
+}
+
+.form-control {
+    border-color: rgb(243, 230, 202)
+}
+
+.myfavbutton {
+    float: right;
+    margin-right: 1%;
+    background-color: olivedrab;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    line-height: 24px;
+    z-index: 2;
+    
+}
+
+.myfavbutton:hover {
+    color: olivedrab;
+    background-color: rgb(222, 236, 192);
+    border-color: olivedrab;
+}
+
+.home-btn {
+    float: right;
+    margin-right: 1%;
+    background-color: olivedrab;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    line-height: 24px;
+}
+
+.home-btn:hover {
+    color: olivedrab;
+    background-color: rgb(222, 236, 192);
+    border-color: olivedrab;
+}
+
+.btn-primary {
+    font-size: 16px;
+    background-color: olivedrab;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    color: olivedrab;
+    background-color: rgb(222, 236, 192);
+    border: 2px solid olivedrab;
+}
+
+#search-btn {
+    margin-top: 5px;
+    background-color: olivedrab;
+    border: 2px solid olivedrab;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    line-height: 24px;
+}
+
+#search-btn:hover {
+    color: olivedrab;
+    background-color: rgb(222, 236, 192);
+    border-color: olivedrab;
+}
+
+#results li {
+    padding: 10px 0;
+    border-bottom: 1px dotted #ccc;
+    list-style: none;
+    overflow: auto;
+}
+
+.list-left {
+    float: left;
+    width: 20%;
+}
+
+.list-left img {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+.list-right {
+    float: right;
+    width: 78%;
+}
+
+.list-right h3 {
+    margin: 0;
+}
+
+.list-right p {
+    margin: 0;
+}
+
+.paging-button {
+    background: #f4f4f4;
+    padding: 0 13px;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    color: #333;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#item2,
+#item3 {
+    margin-left: 10px;
+}
+
+.card1 {
+    margin: 20px;
+    display: inline;
+}
+
+.card-img-top {
+    height: 220px;
+}
+
+div.card-header {
+    color: white;
+    background-color: rgb(231, 130, 0);
+}
+
+.card-title {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.card-body {
+    padding: 20px;
+}
+
+div.col-md-12 {
+    padding: 0px;
+}
+
+.product {
+    width: 24%;
+    float: left;
+    margin: 10px 25px;
+}
+
+.footer-container {
+    text-align: center;
+    color: olivedrab;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#none {
+    margin-top: 20px;
+    z-index: 1;
+    position: absolute;
+    background: #f3f3f3;
+}
+
+#none {
+    display: none;
+}
+
+.list-left .fav img {
+    width: 20px;
+    height: 20px;
+}
+
+.fav img {
+    width: 30px;
+    height: 30px;
+}
+
+.fav {
+    display: none;
+}
+
+.list-left:hover .favvideo {
+    display: block;
+    width: 118px;
+    height: 25px;
+    background: url(../images/img.png);
+    z-index: 1;
+    margin-top: 20px;
+    position: absolute;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.list-left:hover .favdel {
+    display: block;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    background: url(../images/filled.png)#f3f3f3;
+    margin-top: 20px;
+    position: absolute;
+    background-size: cover;
+}
+
+.product:hover .fav {
+    display: block;
+    width: 150px;
+    height: 30px;
+    background: url(../images/img.png);
+    z-index: 1;
+    margin-top: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.favdel img {
+    width: 30px;
+    height: 30px;
+}
+
+.favdel {
+    display: none;
+}
+
+.product:hover .favdel {
+    display: block;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    background: url(../images/filled.png)#f3f3f3;
+    margin-top: 20px;
+    position: absolute;
+    background-size: cover;
+}
+.header-elements {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: rgb(231, 130, 0);
+    z-index: 2;
+}
+
